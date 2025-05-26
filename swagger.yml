@@ -1,1 +1,7 @@
 
+spring:
+  mvc:
+    static-path-pattern: /${SERVICE_PATH}/**/swagger
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/
