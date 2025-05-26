@@ -2,8 +2,8 @@ spring:
   config:
     imports:
       - application.yml
-      - postgres-common.yml
-      - swagger-common.yml
+      - postgres.yml
+      - swagger.yml
 
 server:
   port: 8087
