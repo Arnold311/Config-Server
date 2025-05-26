@@ -1,1 +1,13 @@
+spring:
+  config:
+    imports:
+      - application.yml
+      - postgres-common.yml
+      - swagger-common.yml
 
+server:
+  port: 8087
+  servlet:
+    context-path: /api/s7
+
+SERVICE_PATH: api/s7  
