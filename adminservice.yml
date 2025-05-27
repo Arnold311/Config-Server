@@ -1,6 +1,6 @@
 spring:
   config:
-    imports:
+    import:
       - application.yml
       - postgres.yml
       - swagger.yml
@@ -10,4 +10,5 @@ server:
   servlet:
     context-path: /api/s7
 
-SERVICE_PATH: api/s7  
+app:  
+  service-path: /api/s7
